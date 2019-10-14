@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B51408F62354E3BB00E32CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51408F52354E3BB00E32CB9 /* AppDelegate.swift */; };
+		B51408F82354E3BB00E32CB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51408F72354E3BB00E32CB9 /* SceneDelegate.swift */; };
+		B51408FA2354E3BB00E32CB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51408F92354E3BB00E32CB9 /* ContentView.swift */; };
+		B51408FC2354E3BC00E32CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51408FB2354E3BC00E32CB9 /* Assets.xcassets */; };
+		B51408FF2354E3BC00E32CB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51408FE2354E3BC00E32CB9 /* Preview Assets.xcassets */; };
+		B51409022354E3BC00E32CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51409002354E3BC00E32CB9 /* LaunchScreen.storyboard */; };
+		B514090D2354E3BC00E32CB9 /* WheelOfLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B514090C2354E3BC00E32CB9 /* WheelOfLightTests.swift */; };
+		B51409182354E3BC00E32CB9 /* WheelOfLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51409172354E3BC00E32CB9 /* WheelOfLightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B51409092354E3BC00E32CB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51408EA2354E3BB00E32CB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51408F12354E3BB00E32CB9;
+			remoteInfo = WheelOfLight;
+		};
+		B51409142354E3BC00E32CB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51408EA2354E3BB00E32CB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51408F12354E3BB00E32CB9;
+			remoteInfo = WheelOfLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B51408F22354E3BB00E32CB9 /* WheelOfLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelOfLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51408F52354E3BB00E32CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B51408F72354E3BB00E32CB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B51408F92354E3BB00E32CB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B51408FB2354E3BC00E32CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B51408FE2354E3BC00E32CB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B51409012354E3BC00E32CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B51409032354E3BC00E32CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51409082354E3BC00E32CB9 /* WheelOfLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelOfLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B514090C2354E3BC00E32CB9 /* WheelOfLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelOfLightTests.swift; sourceTree = "<group>"; };
+		B514090E2354E3BC00E32CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51409132354E3BC00E32CB9 /* WheelOfLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelOfLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51409172354E3BC00E32CB9 /* WheelOfLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelOfLightUITests.swift; sourceTree = "<group>"; };
+		B51409192354E3BC00E32CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B51408EF2354E3BB00E32CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51409052354E3BC00E32CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51409102354E3BC00E32CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B51408E92354E3BB00E32CB9 = {
+			isa = PBXGroup;
+			children = (
+				B51408F42354E3BB00E32CB9 /* WheelOfLight */,
+				B514090B2354E3BC00E32CB9 /* WheelOfLightTests */,
+				B51409162354E3BC00E32CB9 /* WheelOfLightUITests */,
+				B51408F32354E3BB00E32CB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B51408F32354E3BB00E32CB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B51408F22354E3BB00E32CB9 /* WheelOfLight.app */,
+				B51409082354E3BC00E32CB9 /* WheelOfLightTests.xctest */,
+				B51409132354E3BC00E32CB9 /* WheelOfLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51408F42354E3BB00E32CB9 /* WheelOfLight */ = {
+			isa = PBXGroup;
+			children = (
+				B51408F52354E3BB00E32CB9 /* AppDelegate.swift */,
+				B51408F72354E3BB00E32CB9 /* SceneDelegate.swift */,
+				B51408F92354E3BB00E32CB9 /* ContentView.swift */,
+				B51408FB2354E3BC00E32CB9 /* Assets.xcassets */,
+				B51409002354E3BC00E32CB9 /* LaunchScreen.storyboard */,
+				B51409032354E3BC00E32CB9 /* Info.plist */,
+				B51408FD2354E3BC00E32CB9 /* Preview Content */,
+			);
+			path = WheelOfLight;
+			sourceTree = "<group>";
+		};
+		B51408FD2354E3BC00E32CB9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B51408FE2354E3BC00E32CB9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B514090B2354E3BC00E32CB9 /* WheelOfLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				B514090C2354E3BC00E32CB9 /* WheelOfLightTests.swift */,
+				B514090E2354E3BC00E32CB9 /* Info.plist */,
+			);
+			path = WheelOfLightTests;
+			sourceTree = "<group>";
+		};
+		B51409162354E3BC00E32CB9 /* WheelOfLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B51409172354E3BC00E32CB9 /* WheelOfLightUITests.swift */,
+				B51409192354E3BC00E32CB9 /* Info.plist */,
+			);
+			path = WheelOfLightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B51408F12354E3BB00E32CB9 /* WheelOfLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B514091C2354E3BC00E32CB9 /* Build configuration list for PBXNativeTarget "WheelOfLight" */;
+			buildPhases = (
+				B51408EE2354E3BB00E32CB9 /* Sources */,
+				B51408EF2354E3BB00E32CB9 /* Frameworks */,
+				B51408F02354E3BB00E32CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheelOfLight;
+			productName = WheelOfLight;
+			productReference = B51408F22354E3BB00E32CB9 /* WheelOfLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B51409072354E3BC00E32CB9 /* WheelOfLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B514091F2354E3BC00E32CB9 /* Build configuration list for PBXNativeTarget "WheelOfLightTests" */;
+			buildPhases = (
+				B51409042354E3BC00E32CB9 /* Sources */,
+				B51409052354E3BC00E32CB9 /* Frameworks */,
+				B51409062354E3BC00E32CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B514090A2354E3BC00E32CB9 /* PBXTargetDependency */,
+			);
+			name = WheelOfLightTests;
+			productName = WheelOfLightTests;
+			productReference = B51409082354E3BC00E32CB9 /* WheelOfLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B51409122354E3BC00E32CB9 /* WheelOfLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51409222354E3BC00E32CB9 /* Build configuration list for PBXNativeTarget "WheelOfLightUITests" */;
+			buildPhases = (
+				B514090F2354E3BC00E32CB9 /* Sources */,
+				B51409102354E3BC00E32CB9 /* Frameworks */,
+				B51409112354E3BC00E32CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51409152354E3BC00E32CB9 /* PBXTargetDependency */,
+			);
+			name = WheelOfLightUITests;
+			productName = WheelOfLightUITests;
+			productReference = B51409132354E3BC00E32CB9 /* WheelOfLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B51408EA2354E3BB00E32CB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = com.concordbusinessservicesllc;
+				TargetAttributes = {
+					B51408F12354E3BB00E32CB9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					B51409072354E3BC00E32CB9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B51408F12354E3BB00E32CB9;
+					};
+					B51409122354E3BC00E32CB9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B51408F12354E3BB00E32CB9;
+					};
+				};
+			};
+			buildConfigurationList = B51408ED2354E3BB00E32CB9 /* Build configuration list for PBXProject "WheelOfLight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B51408E92354E3BB00E32CB9;
+			productRefGroup = B51408F32354E3BB00E32CB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B51408F12354E3BB00E32CB9 /* WheelOfLight */,
+				B51409072354E3BC00E32CB9 /* WheelOfLightTests */,
+				B51409122354E3BC00E32CB9 /* WheelOfLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B51408F02354E3BB00E32CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51409022354E3BC00E32CB9 /* LaunchScreen.storyboard in Resources */,
+				B51408FF2354E3BC00E32CB9 /* Preview Assets.xcassets in Resources */,
+				B51408FC2354E3BC00E32CB9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51409062354E3BC00E32CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51409112354E3BC00E32CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B51408EE2354E3BB00E32CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51408F62354E3BB00E32CB9 /* AppDelegate.swift in Sources */,
+				B51408F82354E3BB00E32CB9 /* SceneDelegate.swift in Sources */,
+				B51408FA2354E3BB00E32CB9 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51409042354E3BC00E32CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B514090D2354E3BC00E32CB9 /* WheelOfLightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B514090F2354E3BC00E32CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51409182354E3BC00E32CB9 /* WheelOfLightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B514090A2354E3BC00E32CB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51408F12354E3BB00E32CB9 /* WheelOfLight */;
+			targetProxy = B51409092354E3BC00E32CB9 /* PBXContainerItemProxy */;
+		};
+		B51409152354E3BC00E32CB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51408F12354E3BB00E32CB9 /* WheelOfLight */;
+			targetProxy = B51409142354E3BC00E32CB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B51409002354E3BC00E32CB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51409012354E3BC00E32CB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B514091A2354E3BC00E32CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B514091B2354E3BC00E32CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B514091D2354E3BC00E32CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WheelOfLight/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YE7E9G4GE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WheelOfLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.concordbusinessservicesllc.WheelOfLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B514091E2354E3BC00E32CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WheelOfLight/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YE7E9G4GE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WheelOfLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.concordbusinessservicesllc.WheelOfLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B51409202354E3BC00E32CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YE7E9G4GE;
+				INFOPLIST_FILE = WheelOfLightTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.concordbusinessservicesllc.WheelOfLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheelOfLight.app/WheelOfLight";
+			};
+			name = Debug;
+		};
+		B51409212354E3BC00E32CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YE7E9G4GE;
+				INFOPLIST_FILE = WheelOfLightTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.concordbusinessservicesllc.WheelOfLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheelOfLight.app/WheelOfLight";
+			};
+			name = Release;
+		};
+		B51409232354E3BC00E32CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YE7E9G4GE;
+				INFOPLIST_FILE = WheelOfLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.concordbusinessservicesllc.WheelOfLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WheelOfLight;
+			};
+			name = Debug;
+		};
+		B51409242354E3BC00E32CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YE7E9G4GE;
+				INFOPLIST_FILE = WheelOfLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.concordbusinessservicesllc.WheelOfLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WheelOfLight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B51408ED2354E3BB00E32CB9 /* Build configuration list for PBXProject "WheelOfLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B514091A2354E3BC00E32CB9 /* Debug */,
+				B514091B2354E3BC00E32CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B514091C2354E3BC00E32CB9 /* Build configuration list for PBXNativeTarget "WheelOfLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B514091D2354E3BC00E32CB9 /* Debug */,
+				B514091E2354E3BC00E32CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B514091F2354E3BC00E32CB9 /* Build configuration list for PBXNativeTarget "WheelOfLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51409202354E3BC00E32CB9 /* Debug */,
+				B51409212354E3BC00E32CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51409222354E3BC00E32CB9 /* Build configuration list for PBXNativeTarget "WheelOfLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51409232354E3BC00E32CB9 /* Debug */,
+				B51409242354E3BC00E32CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B51408EA2354E3BB00E32CB9 /* Project object */;
+}
