@@ -15,6 +15,7 @@
 		B51409022354E3BC00E32CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51409002354E3BC00E32CB9 /* LaunchScreen.storyboard */; };
 		B514090D2354E3BC00E32CB9 /* WheelOfLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B514090C2354E3BC00E32CB9 /* WheelOfLightTests.swift */; };
 		B51409182354E3BC00E32CB9 /* WheelOfLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51409172354E3BC00E32CB9 /* WheelOfLightUITests.swift */; };
+		B56F63BD235F3C7600D15CE2 /* CircleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F63BC235F3C7600D15CE2 /* CircleConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B51409132354E3BC00E32CB9 /* WheelOfLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelOfLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51409172354E3BC00E32CB9 /* WheelOfLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelOfLightUITests.swift; sourceTree = "<group>"; };
 		B51409192354E3BC00E32CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56F63BC235F3C7600D15CE2 /* CircleConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		B51408F42354E3BB00E32CB9 /* WheelOfLight */ = {
 			isa = PBXGroup;
 			children = (
+				B56F63BC235F3C7600D15CE2 /* CircleConfiguration.swift */,
 				B51408F52354E3BB00E32CB9 /* AppDelegate.swift */,
 				B51408F72354E3BB00E32CB9 /* SceneDelegate.swift */,
 				B51408F92354E3BB00E32CB9 /* CircleOfLightView.swift */,
@@ -269,6 +272,7 @@
 			files = (
 				B51408F62354E3BB00E32CB9 /* AppDelegate.swift in Sources */,
 				B51408F82354E3BB00E32CB9 /* SceneDelegate.swift in Sources */,
+				B56F63BD235F3C7600D15CE2 /* CircleConfiguration.swift in Sources */,
 				B51408FA2354E3BB00E32CB9 /* CircleOfLightView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
