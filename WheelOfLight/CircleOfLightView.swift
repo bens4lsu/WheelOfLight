@@ -28,29 +28,40 @@ struct CircleOfLightView: View {
             Image(systemName: "gear")
                 .imageScale(.medium)
                 .accessibility(label: Text("Configure Circle"))
-        }.sheet(isPresented: self.$showingConfiguration) {
+        }
+        .sheet(isPresented: self.$showingConfiguration) {
             CircleControls().environmentObject(self.config)
-        }.background(config.bgColor)
+        }
     }
 
     var body: some View {
-        VStack{
-            configButton.frame(width: 30, height: 30, alignment: .center)
+        ZStack {
             
-            Circle()
-                .stroke(AngularGradient(gradient: self.gradient,
-                                        center: .center,
-                                        startAngle: Angle(degrees: 0.0),
-                                        endAngle: Angle(degrees: 360.0)
-                    ),
-                        lineWidth: config.circleWidth)
-                .scaleEffect(config.frameRatio)
-                .rotationEffect(.degrees(self.rotate ? 0.0 : 360.0), anchor: .center)
-                .animation(Animation.linear(duration: duration).repeatForever(autoreverses:false))
-                .background(config.bgColor)
-                .onAppear(){
-                    self.rotate.toggle()
+            VStack{
+                Circle()
+                    .stroke(AngularGradient(gradient: self.gradient,
+                                            center: .center,
+                                            startAngle: Angle(degrees: 0.0),
+                                            endAngle: Angle(degrees: 360.0)
+                        ),
+                            lineWidth: config.circleWidth)
+                    .scaleEffect(config.frameRatio)
+                    .rotationEffect(.degrees(self.rotate ? 0.0 : 360.0), anchor: .center)
+                    .animation(Animation.linear(duration: duration).repeatForever(autoreverses:false))
+                    .background(config.bgColor)
+                    .onAppear(){
+                        self.rotate.toggle()
+                    }
+            }
+            
+            VStack {
+                HStack {
+                    Spacer()
+                    configButton.frame(width:40, height: 40)
                 }
+                Spacer()
+            }
+            
         }.edgesIgnoringSafeArea(.all)
     }
 }
