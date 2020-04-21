@@ -10,7 +10,6 @@ import Combine
 import SwiftUI
 
 final class CircleConfiguration: ObservableObject {
-    @Published var rotate = false
     @Published var speed = 33.33
     @Published var frameRatio: CGFloat = 0.7
     @Published var bgColor: Color = .black
